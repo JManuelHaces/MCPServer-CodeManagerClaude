@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# UV specific
+.uv/
+.venv/
+uv.lock
+
+# IDE/Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.ipynb_checkpoints
+
+# MCP specific
+/mcp_cache/
+/mcp_data/
+/mcp_logs/
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+.coverage
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+
+# Sensitive data
+.env
+.env.local
+.secrets
+*.pem
+*.key
+
+# Distribution / packaging
+*.pkl
+*.h5
+
+# Local configuration
+config.local.json
+claude_desktop_config.json
+
+# OS specific
+Thumbs.db
